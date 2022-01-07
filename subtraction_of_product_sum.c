@@ -14,14 +14,14 @@ int sub(int n)
     return product-sum;
 }
 
-int main()
-{
-    int num,d;
+        int main()
+        {
+            int num,d;
 
-    printf("Enter No \n");
-    scanf("%d",&num);
+            printf("Enter No \n");
+            scanf("%d",&num);
 
-    d=sub(num);
-     
-    printf("Difference of Product and Sum=%d\n",d);
-}
+            d=sub(num);
+            
+            printf("Difference of Product and Sum=%d\n",d);
+        }
